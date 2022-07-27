@@ -32,9 +32,16 @@ module.exports = {
         allowNull: false,
         type: Sequelize.CHAR,
       },
+      // relation doctor hasMany patient
       doctorId: {
         allowNull: false,
         type: Sequelize.INTEGER,
+        references: {
+          model: "doctors",
+          key: "id",
+        },
+        onUpdate: "CASCADE",
+        onDelete: "SET NULL",
       },
       createdAt: {
         allowNull: false,
