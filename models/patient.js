@@ -22,8 +22,8 @@ module.exports = (sequelize, DataTypes) => {
       gender: { type: DataTypes.STRING, allowNull: false },
       dateOfBirth: { type: DataTypes.DATE, allowNull: false },
       email: { type: DataTypes.STRING, allowNull: false },
-      phoneNumber: { type: DataTypes.CHAR, allowNull: false },
-      doctorId: { type: DataTypes.INTEGER, allowNull: false },
+      phoneNumber: { type: DataTypes.STRING, allowNull: false },
+      doctorId: { type: DataTypes.INTEGER, allowNull: true },
     },
     {
       sequelize,

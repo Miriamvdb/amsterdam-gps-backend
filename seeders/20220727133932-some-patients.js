@@ -6,7 +6,6 @@ module.exports = {
       "patients",
       [
         {
-          id: 1,
           firstName: "Milt",
           lastName: "Rosenbaum",
           gender: "Male",
@@ -19,7 +18,6 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
-          id: 2,
           firstName: "Faydra",
           lastName: "Lief",
           gender: "Female",
@@ -32,7 +30,6 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
-          id: 3,
           firstName: "Roxane",
           lastName: "Alflat",
           gender: "Female",
@@ -45,7 +42,6 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
-          id: 4,
           firstName: "Willy",
           lastName: "Entwisle",
           gender: "Female",
@@ -62,7 +58,6 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
-          id: 5,
           firstName: "Bjorn",
           lastName: "Bolgar",
           gender: "Male",
@@ -75,7 +70,6 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
-          id: 6,
           firstName: "Ardith",
           lastName: "Kilmartin",
           gender: "Female",
@@ -88,7 +82,6 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
-          id: 7,
           firstName: "Walt",
           lastName: "Moule",
           gender: "Male",
@@ -101,7 +94,6 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
-          id: 8,
           firstName: "Fedora",
           lastName: "Johnston",
           gender: "Female",
@@ -114,7 +106,6 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
-          id: 9,
           firstName: "Jo-anne",
           lastName: "Furmonger",
           gender: "Female",
@@ -127,7 +118,6 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
-          id: 10,
           firstName: "Gerome",
           lastName: "Stutte",
           gender: "Male",

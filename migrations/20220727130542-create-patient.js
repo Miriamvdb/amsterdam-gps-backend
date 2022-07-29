@@ -30,11 +30,11 @@ module.exports = {
       },
       phoneNumber: {
         allowNull: false,
-        type: Sequelize.CHAR,
+        type: Sequelize.STRING,
       },
       // relation doctor hasMany patient
       doctorId: {
-        allowNull: false,
+        allowNull: true,
         type: Sequelize.INTEGER,
         references: {
           model: "doctors",
