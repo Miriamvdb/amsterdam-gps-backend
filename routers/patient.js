@@ -1,12 +1,12 @@
 const { Router } = require("express");
-const Doctor = require("../models").doctor;
+const Patient = require("../models").patient;
 const router = new Router();
 
-// Feature 3, 5: GET all doctors - http GET :4000/doctors
+// Feature 5: GET all patients - http GET :4000/patients
 router.get("/", async (req, res, next) => {
   try {
-    const allDoctors = await Doctor.findAll();
-    res.send(allDoctors);
+    const allPatients = await Patient.findAll();
+    res.send(allPatients);
   } catch (e) {
     console.log(e.message);
     next(e);

@@ -6,6 +6,7 @@ module.exports = {
       "patients",
       [
         {
+          idnr: "5856675843",
           firstName: "Milt",
           lastName: "Rosenbaum",
           gender: "Male",
@@ -18,6 +19,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
+          idnr: "8272482266",
           firstName: "Faydra",
           lastName: "Lief",
           gender: "Female",
@@ -30,6 +32,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
+          idnr: "6877351762",
           firstName: "Roxane",
           lastName: "Alflat",
           gender: "Female",
@@ -42,6 +45,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
+          idnr: "1323339832",
           firstName: "Willy",
           lastName: "Entwisle",
           gender: "Female",
@@ -58,6 +62,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
+          idnr: "4772181415",
           firstName: "Bjorn",
           lastName: "Bolgar",
           gender: "Male",
@@ -70,6 +75,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
+          idnr: "5942660123",
           firstName: "Ardith",
           lastName: "Kilmartin",
           gender: "Female",
@@ -82,6 +88,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
+          idnr: "6467006526",
           firstName: "Walt",
           lastName: "Moule",
           gender: "Male",
@@ -94,6 +101,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
+          idnr: "6906950363",
           firstName: "Fedora",
           lastName: "Johnston",
           gender: "Female",
@@ -106,6 +114,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
+          idnr: "3711892663",
           firstName: "Jo-anne",
           lastName: "Furmonger",
           gender: "Female",
@@ -118,6 +127,7 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
+          idnr: "9335192813",
           firstName: "Gerome",
           lastName: "Stutte",
           gender: "Male",

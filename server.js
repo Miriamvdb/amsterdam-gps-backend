@@ -3,7 +3,7 @@ const cors = require("cors");
 
 const authRouter = require("./routers/auth");
 const doctorRouter = require("./routers/doctor");
-// const patientRouter = require("./routers/patient");
+const patientRouter = require("./routers/patient");
 // const prescriptionRouter = require("./routers/prescription");
 
 const PORT = 4000;
@@ -14,7 +14,7 @@ app.use(cors());
 
 app.use("/auth", authRouter);
 app.use("/doctors", doctorRouter);
-// app.use("/patients", patientRouter);
+app.use("/patients", patientRouter);
 // app.use("/prescriptions", prescriptionRouter);
 
 app.listen(PORT, () => console.log(`Server running on port :${PORT}`));

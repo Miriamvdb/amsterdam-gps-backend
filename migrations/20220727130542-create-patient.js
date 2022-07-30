@@ -8,6 +8,10 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
+      idnr: {
+        allowNull: true,
+        type: Sequelize.BIGINT,
+      },
       firstName: {
         allowNull: false,
         type: Sequelize.STRING,
@@ -22,7 +26,7 @@ module.exports = {
       },
       dateOfBirth: {
         allowNull: false,
-        type: Sequelize.DATE,
+        type: Sequelize.STRING,
       },
       email: {
         allowNull: false,

@@ -17,10 +17,11 @@ module.exports = (sequelize, DataTypes) => {
   }
   patient.init(
     {
+      idnr: { type: DataTypes.BIGINT, allowNull: true },
       firstName: { type: DataTypes.STRING, allowNull: false },
       lastName: { type: DataTypes.STRING, allowNull: false },
       gender: { type: DataTypes.STRING, allowNull: false },
-      dateOfBirth: { type: DataTypes.DATE, allowNull: false },
+      dateOfBirth: { type: DataTypes.STRING, allowNull: false },
       email: { type: DataTypes.STRING, allowNull: false },
       phoneNumber: { type: DataTypes.STRING, allowNull: false },
       doctorId: { type: DataTypes.INTEGER, allowNull: true },
